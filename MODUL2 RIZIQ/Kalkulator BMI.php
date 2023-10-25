@@ -88,7 +88,7 @@ if (!$tinggi_badan){
                 
                     <!-- silakan taruh code kalian di bawah -->
                     <?= isset($hasil) ? $hasil : ""?>
-                    
+                    <?= isset($bmi) ? $bmi :""?>
                     <!--  **********************  4  **************************     -->
 
 
@@ -98,6 +98,7 @@ if (!$tinggi_badan){
                     <!-- silakan taruh code kalian di bawah -->
                     <div>
                         <?= isset($pesan) ? $pesan : "success"?>
+            
                     </div>
 
                     <!--  **********************  5  **************************     -->
